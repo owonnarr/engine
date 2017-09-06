@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 04.09.17
- * Time: 19:20
- */
+namespace App\models;
+class Users
+{
+    public function getUser()
+    {
+        return
+            [
+                'name' => 'Вася',
+                'email' => 'vasya@gmail.com',
+                'tel' => '8093123455'
+            ];
+    }
+}
