@@ -13,13 +13,14 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">WebSiteName</a>
+                <a class="navbar-brand" href="/">Engine MVC</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
+                <li class="active stylelink"><a href="/">Home</a></li>
                 <li><a href="/news">News</a></li>
                 <li><a href="/contacts">Contacts</a></li>
                 <li><a href="/aboutus">About Us</a></li>
+                <li><a href="/products">Products</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -28,7 +29,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container mycontainer">
         <?php include_once APP . 'views/' . $view . '.php'; ?>    
     </div>
 
@@ -38,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 footerleft footer">
-                    <div class="logofooter"> Logo</div>
+                    <div class="logofooter"> Engine MVC</div>
                     <p>Сайт находится в разработке</p>
                     <p><i class="fa fa-map-pin"></i> Dnipro, Ukraine</p>
                     <p><i class="fa fa-phone"></i> Phone : +3 8093 888 88 88</p>
@@ -56,24 +57,25 @@
                 </div>
             </div>
         </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="col-md-6">
+                    <p>© 2016</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="bottom_ul">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/contacts">Contacts</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--footer start from here-->
 
-    <div class="copyright">
-        <div class="container">
-            <div class="col-md-6">
-                <p>© 2016</p>
-            </div>
-            <div class="col-md-6">
-                <ul class="bottom_ul">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/news">News</a></li>
-                    <li><a href="/contacts">Contacts</a></li>
-                    <li><a href="/aboutus">About Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    
 
 
     <script src="/css/js/bootstrap.min.js"></script>

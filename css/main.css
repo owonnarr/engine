@@ -5,16 +5,16 @@
 }
 
 .wrapper {
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form-signin {
     max-width: 420px;
     padding: 30px 38px 66px;
     margin: 0 auto;
-    background-color: #eee;
-    border: 3px dotted rgba(0,0,0,0.1);
+    /*background-color: #eee;*/
+    /*border: 3px dotted rgba(0,0,0,0.1);*/
 }
 
 .form-signin-heading {
@@ -94,4 +94,8 @@ footer { background-color:#0c1a1e; font-family: 'Open Sans', sans-serif; }
 footer {
     /*position: absolute;*/
     bottom: 0;
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 2px #ec971f solid;
 }

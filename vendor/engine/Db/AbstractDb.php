@@ -1,11 +1,14 @@
 <?php
 
-namespace Engine;
-use Engine\Db;
+namespace Engine\Db;
+use Engine\Db\Db;
+
 abstract class AbstractDb
 {
     public $db;
-    public function __construct() {
+
+    public function __construct()
+    {
         $this->db = Db::getInstance();
     }
 }

@@ -6,9 +6,11 @@ class Users
     {
         return
             [
-                'name' => 'Вася',
-                'email' => 'vasya@gmail.com',
-                'tel' => '8093123455'
+               [ 
+                   'name' => 'Вася',
+                    'email' => 'vasya@gmail.com',
+                    'tel' => '8093123455' 
+               ]
             ];
     }
 }
